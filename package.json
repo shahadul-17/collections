@@ -1,0 +1,29 @@
+{
+  "name": "@shahadul-17/collections",
+  "version": "0.0.1",
+  "description": "Contains interfaces and classes that define collections, which allow users to create collections that provide enhanced functionalities and performance than native collections.",
+  "author": "Md. Shahadul Alam Patwary",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahadul-17/collections.git"
+  },
+  "keywords": [
+    "collections"
+  ],
+  "bugs": {
+    "url": "https://github.com/shahadul-17/collections/issues"
+  },
+  "homepage": "https://github.com/shahadul-17/collections#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
