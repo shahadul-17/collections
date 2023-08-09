@@ -1,6 +1,6 @@
 {
   "name": "@shahadul-17/collections",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Contains interfaces and classes that define collections, which allow users to create collections that provide enhanced functionalities and performance than native collections.",
   "author": "Md. Shahadul Alam Patwary",
   "license": "MIT",

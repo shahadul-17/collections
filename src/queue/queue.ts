@@ -16,16 +16,16 @@ export class Queue<Type> implements IQueue<Type> {
     this.elements = new Array<Type>(this.initialCapacity);
   }
 
-  get count(): number {
+  public get count(): number {
     return this.tail - this.head;
   }
 
-  enqueue(element: Type): void {
+  public enqueue(element: Type): void {
     this.elements[this.tail] = element;
     this.tail++;
   }
 
-  dequeue(): undefined | Type {
+  public dequeue(): undefined | Type {
     if (this.count === 0) { return undefined; }
 
     const element = this.elements[this.head];
@@ -37,17 +37,17 @@ export class Queue<Type> implements IQueue<Type> {
     return element;
   }
 
-  peek(): undefined | Type {
+  public peek(): undefined | Type {
     if (this.count === 0) { return undefined; }
 
     return this.elements[this.head];
   }
 
-  isEmpty(): boolean {
+  public isEmpty(): boolean {
     return this.count === 0;
   }
 
-  clear(): void {
+  public clear(): void {
     this.head = 0;
     this.tail = 0;
   }
